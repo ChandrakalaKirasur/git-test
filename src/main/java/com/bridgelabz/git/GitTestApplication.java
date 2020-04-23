@@ -1,9 +1,7 @@
 package com.bridgelabz.git;
 
-import org.springframework.boot.SpringApplication;
-
 public class GitTestApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(GitTestApplication.class, args);
+		System.out.println("created application to test git test");
 	}
 }
