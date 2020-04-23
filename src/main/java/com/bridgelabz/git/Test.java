@@ -20,7 +20,10 @@ public void setTest(String test) {
 	this.test = test;
 }
 
-public Test(String test) {
+public Test(String test, int num) {
+	super();
 	this.test = test;
+	this.num = num;
 }
+
 }
